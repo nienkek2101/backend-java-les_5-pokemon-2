@@ -8,8 +8,13 @@ public class FirePokemon extends Pokemon {
     private static final List<String> attacks = Arrays.asList("FireLash", "FlameThrower", "PyroBall", "Inferno");
 
     // Constructor
-    public FirePokemon(String name, int level, int hp, String food, String sound, String type) {
-        super(name, level, hp, food, sound, type);
+    public FirePokemon(String name, int level, int hp, String food, String sound) {
+        super(name, level, hp, food, sound);
+    }
+
+    // Getters
+    public String getType() {
+        return type;
     }
 
     // Methodes
@@ -79,7 +84,7 @@ public class FirePokemon extends Pokemon {
                 enemy.setHp(enemy.getHp() - 20);
             }
         }
-        System.out.println(enemy.getName() + " has " + enemy.getHp() + " hp left.")
+        System.out.println(enemy.getName() + " has " + enemy.getHp() + " hp left.");
 
     }
 

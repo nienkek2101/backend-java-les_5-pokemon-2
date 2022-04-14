@@ -4,16 +4,16 @@ public abstract class Pokemon {
     private int hp;
     private final String food;
     private final String sound;
-    private final String type;
+//    private final String type;
 
     // Constructor
-    public Pokemon(String name, int level, int hp, String food, String sound, String type) {
+    public Pokemon(String name, int level, int hp, String food, String sound) {
         this.name = name;
         this.level = level;
         this.hp = hp;
         this.food = food;
         this.sound = sound;
-        this.type = type;
+//        this.type = type;
     }
 
     // Getters
@@ -37,9 +37,9 @@ public abstract class Pokemon {
         return sound;
     }
 
-    public String getType() {
-        return type;
-    }
+//    public String getType() {
+//        return type;
+//    }
 
     // Setters
     public void setHp(int hp) {
