@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Methodes {
+//public class Methodes {
     /*De volgende 16 methodes zijn aanvallen*/
 //    void surf(Pokemon name, Pokemon enemy);
 
@@ -39,9 +39,9 @@ public class Methodes {
 //        return attacks;
 //    }
 
-    public List<Pokemon> getPokemonList() {
-        return Arrays.asList(getCharizard(), getBlastoise(), getDitto(), getGyarados(), getRaichu(), getVenusaur());
-    }
+//    public List<Pokemon> getPokemonList() {
+//        return Arrays.asList(getCharizard(), getBlastoise(), getDitto(), getGyarados(), getRaichu(), getVenusaur());
+//    }
 
     /*Deze methodes mogen geïmplementeerd worden in de interface*/
 

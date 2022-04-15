@@ -14,9 +14,9 @@ public class Variabelen {
 //    ditto;/*🌿*/
 //    raichu;/*⚡*/
 //    gyarados;/*🌊*/
-    PokemonTrainer brock;
-    List<Pokemon> pokemons;
-    village;/*""*/
+//    PokemonTrainer brock;
+//    List<Pokemon> pokemons;
+//    village;/*""*/
 //    int level;
 //    int hp;
 //    food;/*""*/

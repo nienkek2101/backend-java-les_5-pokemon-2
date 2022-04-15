@@ -4,14 +4,14 @@ import java.util.List;
 public class WaterPokemon extends Pokemon {
 //    String blastoise = "Blastoise";
 //    String gyarados = "Gyarados";
-    private static final String type = "fire";
+    private static final String type = "water";
 
     private static final List<String> attacks = Arrays.asList("HydroCanon", "HydroPump", "Surf", "RainDance");
 
     // Constructor
 
 
-    public WaterPokemon(String name, int level, int hp, String food, String sound, String type) {
+    public WaterPokemon(String name, int level, int hp, String food, String sound) {
         super(name, level, hp, food, sound, type);
     }
 

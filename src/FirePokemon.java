@@ -9,16 +9,16 @@ public class FirePokemon extends Pokemon {
 
     // Constructor
     public FirePokemon(String name, int level, int hp, String food, String sound) {
-        super(name, level, hp, food, sound);
+        super(name, level, hp, food, sound, type);
     }
 
     // Getters
-    public String getType() {
-        return type;
-    }
+//    public String getType() {
+//        return type;
+//    }
 
     // Methodes
-    public void Inferno(Pokemon name, Pokemon enemy) {
+    public void inferno(Pokemon name, Pokemon enemy) {
         System.out.println(name.getName() + " performed Inferno on " + enemy.getName() + "!");
         switch(enemy.getType()) {
             case "fire" -> {
